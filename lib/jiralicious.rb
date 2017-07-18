@@ -1,6 +1,7 @@
 # encoding: utf-8
 require "hashie"
-require "crack"
+# ~I don't believe this is used~
+#require "crack"
 require "httparty"
 require "json"
 
