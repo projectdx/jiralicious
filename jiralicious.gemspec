@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
   s.email       = "jstewart@fusionary.com"
   s.authors     = ["Jason Stewart"]
 
-  s.add_runtime_dependency "crack", "~> 0.1.8"
+  #commenting out dependency crack -- seems unused and has vulnerability
+  #s.add_runtime_dependency "crack", "~> 0.1.8"
   s.add_runtime_dependency "hashie", ">= 1.1"
   s.add_runtime_dependency "httparty", ">= 0.10"
   s.add_runtime_dependency "json", ">= 1.6"
